@@ -1,15 +1,18 @@
+
 body{
     margin: 0;
     padding: 0%;
     border: none;
+    width: 1520px;
+   
 }
 .firstportion{
-     width: 100%px;
+     width: 100%;
     height: 550px;
 background-image: url('hero_2.jpg');
 background-size: cover;
 background-position: center;
-max-width: 100%px;
+
 
 }
 
@@ -80,7 +83,7 @@ max-width: 100%px;
 
 /* Show the menu */
 .nav-links.active {
-    max-height: 300px;
+    max-height: 370px;
     background: #f3f3f3; 
     width: 100%;
     height: 500px;
@@ -325,7 +328,7 @@ text-align: center;
 }
  .teamsvgs{
 display: flex;
-flex-direction: row;
+flex-wrap: wrap;
 justify-content: center;
  }
  .svgss{
@@ -350,6 +353,23 @@ width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+ .svgsss{
+    text-align: center;
+    margin-inline: 50px;
+ }
+.svgsss img{
+width: 300px;
+}
+.svgsss h5{
+   font-size: 30px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+ 
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    margin: 0;
 }
 
 
@@ -497,4 +517,539 @@ transform: translateY(100px);
 opacity: 1;
 transform: translateY(0);
     }
+}
+@media (max-width:800px) {
+   
+    body{
+    margin: 0;
+    padding: 0%;
+    border: none;
+    width: 800px;
+}
+.firstportion{
+     width: 800px;
+    height: 550px;
+background-image: url('hero_2.jpg');
+background-size: cover;
+background-position: center;
+max-width: 100%px;
+
+}
+
+.navbar {
+    width: 97.4%;
+    background: transparent;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.logo {
+    font-size: 28px;
+       font-family: 'Abril Fatface', cursive;
+    font-weight: 800;
+       color: #f8f9fa; 
+}
+
+/* Hamburger Button Container */
+.hamburger {
+    width: 30px;
+    height: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/* Lines */
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background: #ddd;
+    transition: 0.4s ease;   /* smooth transition */
+}
+
+
+/* --- MENU --- */
+.nav-links {
+    list-style: none;
+   
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 15px 0;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.nav-links li {
+    padding: 12px 20px;
+    margin-block: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+      font-family: 'Abril Fatface', cursive;
+    font-weight: 900;
+        color:black;
+         font-size: 18px;
+}
+
+/* Show the menu */
+.nav-links.active {
+    max-height: 370px;
+    background: #f3f3f3; 
+    width: 100%;
+    height: 500px;
+    text-align: center;
+     font-size: 18px;
+       font-family: 'Abril Fatface', cursive;
+    font-weight: 900;
+        color: rgb(255, 255, 255);
+        
+}
+
+.nav-links a:hover{
+    color: #65c0ba;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0; 
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.firstportion h1{
+    text-align: center;
+    font-size:80px ;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 800;
+        color: #f8f9fa; 
+
+}
+.firstportion p{
+    font-size: 25px;
+    font-weight: 200;
+      font-family: "Mukta Mahee", arial, sans-serif;
+      color: #f8f9fa; 
+     text-align: center;
+}
+.firstportion p a {
+    text-decoration: none;
+        font-size: 25px;
+    font-weight: 200;
+    font-family: "Mukta Mahee", arial, sans-serif;
+         color: rgba(255, 255, 255, 0.5); 
+     text-align: center;
+     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+.firstportion p a:hover{
+      color: #f8f9fa;
+}
+
+.secondportion .context{
+display: flex;
+flex-wrap: wrap;
+padding-top: 100px;
+
+
+}
+.paracontent{
+    display: flex;
+    flex-direction: column;
+    margin-left: 175px;
+    margin-top: 80px;
+}
+.paracontent h1{
+    font-size: 40px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+    justify-content: center;
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    text-align: center;
+}
+.paracontent p{
+font-size: 18px;
+   font-weight: 300;
+    color: #6c757d;
+    /* line-height: 1.8; */
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    animation: fadeIn 2s ease forwards;
+    width: 450px;
+}
+.paracontent a{
+    text-decoration: none;
+    border: 3px solid #65c0ba ;
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #000;
+    border-radius: 5px;
+    
+    
+}
+.paracontent a:hover {
+background-color:#65c0ba;;
+color: #fafafa;
+}
+.secondportion .context img{
+    background-size: cover;
+    width: 660px;
+    height: 600px;
+    margin-left: 70px;
+
+}
+
+.thridportioncontent{
+padding-top: 150px;
+}
+.thridportioncontent h1{
+    font-size: 70px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+    justify-content: center;
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    text-align: center;
+    margin: 0;
+
+}
+.thridportioncontent p {
+    width: 80%px;
+    padding-left: 100px;
+    padding-right:100px ;
+    font-size: 18px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #000;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+
+.slider {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 12px;
+    animation: fadeIn 2s ease forwards;
+    
+}
+
+/* All images same size */
+.slide {
+    width: 100%;
+    height: 770px;
+    object-fit: cover; /* equal size without stretch */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out; /* smooth fade */
+    /* z-index: 2 ; */
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+/* Arrows OUTSIDE */
+.prev {
+    left: -55px;
+}
+
+.next {
+    right: -55px;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #333;
+}
+.fourthportion{
+width: 800px;
+display: flex;
+flex-wrap: wrap;
+}
+.fourthportionwritten{
+    display: flex;
+    flex-direction: column;
+}
+.fourthportion .fourthportionwritten h6{
+font-size: 40px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+    justify-content: center;
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    text-align: center;
+    margin: 0;
+}
+.fourthportion .fourthportionwritten p {
+    font-size: 18px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    color: #000;
+    border-radius: 5px;
+padding-left: 100px;
+padding-right: 100px;
+text-align: center;
+}
+ .teamsvgs{
+    width: 800px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+ }
+ .svgss{
+    text-align: center;
+    margin: 40px;
+ }
+.svgss img{
+width: 300px;
+}
+.svgss h5{
+   font-size: 30px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+ 
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    margin: 0;
+}
+.teamsvgssec{
+    display: flex;
+    flex-direction: wrap;
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 40px;
+    
+    justify-content: center;
+    
+    
+}
+ .svgsss{
+    
+    text-align: center;
+    margin: 40px;
+
+ }
+ .svgsss img{
+width: 300px;
+}
+.svgsss h5{
+   font-size: 30px;
+   font-weight: 400;
+    color: #000;
+    /* line-height: 1.8; */
+ 
+   font-family: "Abril Fatface", times, serif;
+    animation: fadeIn 2s ease forwards;
+    margin: 0;
+}
+
+
+
+.foot{
+    background: #1a1a1a;
+    color: #fff;
+}
+.footcontent{
+     display: flex;
+    flex-direction: row;
+/* justify-content: right; */
+/* margin: 100px; */
+justify-content: center;
+}
+.footcontent h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Abril Fatface", times, serif;
+        font-weight: 500;
+    line-height: 1.2;
+    
+
+}
+.footing{
+margin: 15px;
+width: 200px;
+}
+.footing ul{
+     padding-left: 0;
+     margin: 0;
+     
+}
+.footing li{
+        list-style: none;
+        padding-block-start: 10px;
+       
+        
+        
+}
+.footing ul li a{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+        cursor: pointer;
+            font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+.footing ul li a:hover {
+        color: #fff;
+}
+.footing ul li h6{
+    font-style: italic;
+    color: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+
+}
+.footing ul li p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+.footing ul li input{
+    background: none;
+    font-size: 18px;
+    color: #fff;
+   width: 85%;
+    /* padding: 0.375rem 0.75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 25px;
+    border: 0;
+    font-style: italic;
+    border-bottom: 1px solid #fff;
+  outline: none;
+    
+}
+    .fa-paper-plane {
+        font-size: 18px;
+        color: #fff;
+        position: absolute;;
+    }
+    .footingtwo{
+        background: #1a1a1a;
+    }
+    .footingtwo p {
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 400px;
+     margin-left: 230px;
+     padding-top: 50px;
+     
+    }
+    .iconsss{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px;
+        margin: 0;
+        text-align: center;
+         opacity: 0; 
+       
+       
+    }
+     @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+.sticonss{
+    text-decoration: none;
+    text-rendering: auto;
+    margin-inline: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font: 18px;
+  
+}
+
+.autoshow {
+    animation: div-appear 1s both;
+    animation-timing-function: ease;
+    animation-timeline: view(10% auto);
+    animation-range: entry 20% cover 80vh;
+}
+@keyframes div-appear {
+    from{
+opacity: 0;
+transform: translateY(100px);
+    }
+    to {
+opacity: 1;
+transform: translateY(0);
+    }
+}
 }

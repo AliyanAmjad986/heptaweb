@@ -2152,7 +2152,7 @@ transform: translateY(0);
 @media (max-width: 620px) {
     *{
 /* width: fit-content; */
-border: 1px solid black;
+/* border: 1px solid black; */
 }
     body{
    

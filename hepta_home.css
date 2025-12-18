@@ -1,7 +1,7 @@
-last
-    *{
-border: 1px solid black;
-    }    
+
+    
+   
+   
 
 body{
     /* color: #6c757d; */
@@ -14,8 +14,10 @@ body{
     margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
-    overflow: scroll;
-   width: 1475px;
+   overflow-x: hidden;
+  overflow-y: auto;
+   width: 100%;
+  
    
 
     
@@ -316,7 +318,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .image{
-
+/* width: 100%; */
 
 }
 .secondpage{
@@ -326,7 +328,7 @@ font-family: 'Courier New', Courier, monospace;
 display: flex;
 justify-content: center;
  width: 100%;
-     max-width: 1520px;
+     
 margin-bottom: 90px;
 
 
@@ -344,7 +346,7 @@ margin-right: 60px;
 .webvideo{
     display: flex;
     flex-direction: column;
-    justify-content: right;
+    justify-content: center;
    margin-top: 260px;
     width: 500px;
    /* margin-left: 110px; */
@@ -409,7 +411,7 @@ line-height: 1.2;
 .thridpage{
     background: #fafafa;
      width: 100%;
-     max-width: 1520px;
+     
 
 }
 .thridpagecontent{
@@ -451,7 +453,7 @@ box-sizing: border-box;
    padding-bottom: 120px;
    animation: fadeIn 2s ease forwards;
   width: 100%;
-     max-width: 1520px;
+     
 }
 .columns{
 text-align: center;
@@ -493,7 +495,7 @@ font-size: 18px;
     /* margin-right: 400px; */
     animation: fadeIn 2s ease forwards;
       width: 100%;
-     max-width: 1520px;
+     
 }
 .writtencontent h1{
 font-size: 60px;
@@ -1028,26 +1030,28 @@ transform: translateY(0);
 
 
 
-
-
-@media (max-width: 800px) {
-*{
-/* width: fit-content; */
-/* border: 1px solid black; */
-}
-    body{
-   
-     width: 100%;
-    max-width: 800px;
-    overflow-x: auto;
-    margin: 0;
-        
+@media (max-width: 1200px) {
     
-    /* margin-left: 0%;
+   
+  
+
+body{
+    /* color: #6c757d; */
+      
+       height: fit-content;
+           /* min-height: 700px; */
+           /* background: rgba(0, 0, 0, 0.2); */
+    
+    margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;
-    margin-bottom: 0%; */
+    margin-bottom: 0%;
+  overflow-x: hidden;
+  overflow-y: auto;
+   width: 100%;
+   /* max-width: 1200px; */
    
+
     
 }
 
@@ -1070,20 +1074,17 @@ font-family: 'Times New Roman', Times, serif;
  background-image: url(hero_1.jpg.webp);
     
  background-position: left;
- /* max-width: 800px;    */
- width: 100%;
-    max-width: 800px;
-    margin: auto;
+    
     height: fit-content;
     border-style: solid;
     border-image-source:linear-gradient(to bottom,  rgba(50, 60, 65, 0.356), transparent);
     border-image-slice: fill 1;
     margin: 0%;
     padding: 0%;
+    
+    
     background-repeat: no-repeat;
 position: relative;
-background-size: cover;
-
 
 }
 .backiimage::before{
@@ -1111,8 +1112,6 @@ background-size: cover;
 }
 .menu{
     width: 100%;
-    max-width: 800px;
-    margin: auto;
     height:fit-content;
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0);
@@ -1234,6 +1233,1042 @@ width: 100%;
  .mainhead {
       font-family: 'Abril Fatface', cursive;
       font-weight: 700;
+      font-size: 80px;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      margin-top: 100px;
+      
+       
+      
+    }
+   
+
+    .headingcontainer {
+      width: 949.984px;
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    
+      flex-direction: column;
+      box-sizing: border-box;
+      position: relative;
+      margin-top: 200px ;
+    }
+
+      .tempdownload {
+      color: rgb(255, 255, 255); 
+      font-size: 30px;
+      font-weight: 200;
+      font-family: sans-serif;
+      text-align: center;
+        width: 100%;
+    }
+
+ 
+       .linkinternal {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.5);
+      transition: 0.3s all ease;
+      text-decoration: none;
+      background-color: transparent;
+      cursor: pointer;
+      text-align: center !important;
+      font-size: 30px;
+      font-family: sans-serif;   
+    }
+
+    .linkinternal:hover {
+      color: rgba(255, 255, 255, 10);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+     
+    }
+
+.mia{
+    color: #f8f9fa; 
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #f8f9fa;;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px;
+    justify-content: center;
+    margin: auto;
+ font-weight: 300;
+ 
+ letter-spacing: .2em;
+  
+ 
+}
+
+.mia:hover{
+    background: white;
+     color: black;
+}
+#miabahi{
+    font-size: 25px;
+    color: #e3e3e3;
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.scrollbtn{
+    justify-content: end;
+    text-align: center;
+    margin-top:18%;
+    margin-bottom: 0%;
+ 
+}
+
+
+.scollhead{
+font-size: 12px;
+color: #ffff;
+text-align: center;
+margin-top:0%;
+margin-bottom: 0%;
+padding: 0%;
+font-family: 'Courier New', Courier, monospace;
+
+}
+#playbtnn{
+    transform: rotateZ(-30deg);
+    color: #fff;
+}
+
+.image{
+
+
+}
+.secondpage{
+   
+}
+.contentss{
+display: flex;
+justify-content: center;
+ width: 100%;
+     max-width: 1520px;
+margin-bottom: 90px;
+
+
+
+}
+.image img{
+width: 550px;
+margin-top: 120px;
+margin-right: 60px;
+
+
+}
+
+
+.webvideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+   margin-top: 260px;
+    width: 500px;
+   /* margin-left: 110px; */
+    padding: 0%;
+margin-bottom: 230px;
+
+}
+
+.animate__animated.animate__slideInUp{
+    animation-duration: 3s;
+ animation-timing-function:linear;
+}
+
+.webvideo h1 {
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+
+}
+.webvideo p {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: "Mukta Mahee", arial, sans-serif;
+  
+}
+#rightarrow{
+    font-size: 45px;
+    border: 2px solid #e6e6e6;
+     width: fit-content;
+   border-radius: 40px;
+   color:#65c0ba; ;
+  
+}
+#rightarrow:hover{
+ border: 2px solid #000;
+ color: #000;
+ cursor: pointer;
+ 
+}
+.playbtn{
+    display: flex;
+    flex-direction: row;
+ 
+}
+.playbtn p{
+    font-size: 20px;
+    color: #65c0ba;
+        font-family: "Mukta Mahee", arial, sans-serif;
+        font-weight: 500;
+        margin: 0%;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: fit-content;
+        height: fit-content;
+       
+}
+
+
+
+
+.thridpage{
+    background: #fafafa;
+     width: 100%;
+     max-width: 1520px;
+
+}
+.thridpagecontent{
+   animation: fadeIn 2s ease forwards;
+}
+.context{
+ text-align: center;
+    justify-content: center;
+
+justify-items: center;
+animation: fadeIn 2s ease forwards;
+ padding-top: 100px;
+}
+.thridpagecontent h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+animation: fadeIn 2s ease forwards;
+}
+.thridpagecontent p{
+   font-size: 20px;
+   font-weight: 300;
+    color: #6c757d;
+    line-height: 1.8;
+    justify-content: center;
+    width: 750px;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    animation: fadeIn 2s ease forwards;
+}
+.svgs{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+box-sizing: border-box;
+   /* margin-left: 200px; */
+   /* margin-right: 200px; */
+   padding-bottom: 120px;
+   animation: fadeIn 2s ease forwards;
+  width: 100%;
+     max-width: 1520px;
+}
+.columns{
+text-align: center;
+width: 400px; 
+margin-top: 10px;
+animation: fadeIn 2s ease forwards;
+}
+
+
+
+
+.svgs img{
+width: 70px;
+}
+.svgs h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+animation: fadeIn 2s ease forwards;
+}
+.svgs p {
+font-size: 18px;
+   font-weight: 300;
+    color: #6c757d;
+    /* line-height: 1.8; */
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    animation: fadeIn 2s ease forwards;
+    
+}
+.writtencontent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    /* margin-left: 400px; */
+    /* margin-right: 400px; */
+    animation: fadeIn 2s ease forwards;
+      width: 100%;
+     
+}
+.writtencontent h1{
+font-size: 60px;
+color: #000;
+font-family: "Abril Fatface", times, serif;
+line-height: 1;
+  width: 100%;
+     max-width: 550px;
+     margin-left: 0px;
+}
+.writtencontent p{
+font-size: 20px;
+font-weight: 250;
+font-family: "Mukta Mahee", arial, sans-serif;
+color: #6c757d;
+line-height: 1.8;
+animation: fadeIn 2s ease forwards;
+text-align: center;
+  width: 100%;
+     max-width: 550px;
+     margin-left: 0px;
+}
+
+
+.fourthpage{
+    background-color: #65c0ba;
+  
+    animation: fadeIn 2s ease forwards;
+ 
+}
+.fourthpagecontent{
+    margin: 0 auto;
+}
+
+
+
+
+/*slider*/
+
+
+.slider {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 12px;
+    animation: fadeIn 2s ease forwards;
+}
+
+/* All images same size */
+.slide {
+    width: 100%;
+    height: 770px;
+    object-fit: cover; /* equal size without stretch */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out; /* smooth fade */
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+/* Arrows OUTSIDE */
+.prev {
+    left: -55px;
+}
+
+.next {
+    right: -55px;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #333;
+}
+.fifthpagewritencontent{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+
+.fifthimagecontainer{
+display: flex;
+
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding-top: 60px;
+padding-bottom: 120px;
+
+}
+.fifthwritencon{
+width: 750px;
+text-align: center;
+
+}
+.fifthpagewritencontent h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 60px;
+}
+.fifthpagewritencontent p{
+font-size: 20px;
+   font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+    /* line-height: 1.8; */
+    /* justify-content: center; */
+    font-family: "Mukta Mahee", arial, sans-serif;
+    max-width: fit-content;
+    
+}
+.fifthimage{
+    background-color: #ffff;
+    width: 350px;
+    
+    align-content: center;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    margin-inline-start: 30px;
+    
+    
+}
+.fifthimage img {
+width: 350px;
+height: 250px;
+}
+.imagewritten-div{
+    max-width: 280px;
+    padding-left: 40px;
+    cursor: pointer;
+    
+        
+}
+.date {
+font-family: "Mukta Mahee", arial, sans-serif;
+      color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.imagewritten-div h1{
+  color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 26px;
+margin : 0;
+cursor: pointer;
+width: 220px;
+
+}
+.imagewritten-div h1:active{
+transform: scale(0.95);
+}
+
+.imagewritten-div h1:hover{
+     color: #65c0ba;
+}
+.para {
+font-size: 18px;
+   font-weight: 300;
+    color: #6c757d;
+    line-height: 1.8;
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+
+}
+.sixthpagecontent{
+    padding-top: 80px;
+        background: #fafafa;
+}
+.sixthpagecontent h1{
+      color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 70px;
+text-align: center;
+}
+.reviewcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+.reviewcontent{
+    width: 340px;
+     padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 160px;
+}
+.reviewcontent img{
+width: 70px;
+border-radius: 50%;
+margin-bottom: 0 auto;
+}
+.comment{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    font-weight: 200;
+}
+.name{
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    font-style: italic;
+}
+.lastpagecontent{
+
+padding-top: 150px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+}
+.lastpagecontent h1{
+    text-align: center !important;
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    font-size: 2rem;    
+        font-weight: 500;
+    line-height: 1.2;
+    width: 700px;
+    margin-left: 0px;
+    
+
+}
+.lastpagecontent p{
+font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center !important;
+    line-height: 1.8;
+    color: #6c757d;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    width: 700px;
+    margin-left: 0px;
+}
+.imagereveiwcontainer{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0;
+margin-left: 0;
+margin-right: 0 ;
+
+padding-bottom: 150px;
+
+}
+.imagereveiw{
+margin-inline: 15px;
+
+}
+.imagereveiw img{
+    width: 250px;
+     cursor: pointer;
+     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.imagereveiw h1{
+        color: #000;
+    
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+        font-family: "Abril Fatface", times, serif;
+        font-weight: 500;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding-top: 10px ;
+   
+}
+.imagereveiw h1:hover{
+    color: #65c0ba;
+    
+}
+
+
+
+/*star */
+.rating {
+    font-size: 18px;
+    color: #65c0ba;
+    gap: 3px;
+    margin-top: 5px;
+    flex-direction: row;
+    display: inline-block; 
+}
+
+
+
+.star {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    
+}
+
+/* Full star */
+.star.full {
+    color: #65c0ba;
+    
+}
+
+/* Empty star */
+.star.empty {
+    color: #65c0ba;
+    
+}
+
+/* Half star */
+.star.half {
+    color: #65c0ba;
+    
+}
+
+.star.half .half-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;       /* half width */
+    overflow: hidden; 
+    color: #65c0ba;
+
+}
+.reveiwcount{   
+    color: #ccc;
+    font-style: italic;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+   text-align: end;
+margin-left: 60px;
+ display: inline-block;  
+ margin-top: 0;
+ margin-bottom: 0;
+}
+.foot{
+    background: #1a1a1a;
+    color: #fff;
+}
+.footcontent{
+     display: flex;
+    flex-direction: row;
+/* justify-content: right; */
+/* margin: 100px; */
+justify-content: center;
+}
+.footcontent h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Abril Fatface", times, serif;
+        font-weight: 500;
+    line-height: 1.2;
+    
+
+}
+.footing{
+margin: 65px;
+}
+.footing ul{
+     padding-left: 0;
+     margin: 0;
+     
+}
+.footing li{
+        list-style: none;
+        padding-block-start: 10px;
+       
+        
+        
+}
+.footing ul li a{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+        cursor: pointer;
+            font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+.footing ul li a:hover {
+        color: #fff;
+}
+.footing ul li h6{
+    font-style: italic;
+    color: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+
+}
+.footing ul li p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+.footing ul li input{
+    background: none;
+    font-size: 18px;
+    color: #fff;
+   width: 85%;
+    /* padding: 0.375rem 0.75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 25px;
+    border: 0;
+    font-style: italic;
+    border-bottom: 1px solid #fff;
+  outline: none;
+    
+}
+    .fa-paper-plane {
+        font-size: 18px;
+        color: #fff;
+        position: absolute;;
+    }
+    .footingtwo{
+        background: #1a1a1a;
+    }
+    .footingtwo p {
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+     margin-left: 0px;
+     padding-top: 50px;
+     
+    }
+    .iconsss{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px;
+        margin: 0;
+        text-align: center;
+         opacity: 0; 
+       
+       
+    }
+     @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+.sticonss{
+    text-decoration: none;
+    text-rendering: auto;
+    margin-inline: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font: 18px;
+  
+}
+
+.autoshow {
+    animation: div-appear 1s both;
+    animation-timing-function: ease;
+    animation-timeline: view(30% auto);
+    animation-range: entry 50% cover 120vh;
+}
+@keyframes div-appear {
+    from{
+opacity: 0;
+transform: translateY(100px);
+    }
+    to {
+opacity: 1;
+transform: translateY(0);
+    }
+}
+
+} 
+
+
+
+
+@media (max-width: 992px) {
+
+    body{
+   
+     width: 100%;
+    /* max-width: 992px; */
+    overflow-x: hidden;
+  overflow-y: auto;
+    margin: 0;
+        
+    
+   
+   
+    
+}
+
+.home_link{  
+    color: white ;
+    font-size: 30px;
+    list-style: none;
+font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    font-weight:bold;
+    line-height: 30px;
+    transition-duration: 0.3s;
+   cursor: pointer; 
+  
+}
+.backiimage{
+ background-image: url(hero_1.jpg.webp);
+    
+ background-position: left;
+ 
+ width: 100%;
+    
+    margin: auto;
+    height: fit-content;
+    border-style: solid;
+    border-image-source:linear-gradient(to bottom,  rgba(50, 60, 65, 0.356), transparent);
+    border-image-slice: fill 1;
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+
+
+}
+.backiimage::before{
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    position: absolute;
+    height: 100vh;
+    min-height: 700px;
+}
+.hepta_homebtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    padding-top: 60px;   
+   
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+.menu{
+    width: 100%;
+   
+    margin: auto;
+    height:fit-content;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 60px; */
+    /* padding-right: 60px; */
+    position: absolute;
+      
+ 
+}
+
+.logo{
+      font-family: "Abril Fatface", serif;
+    font-weight: 1000 ;
+    font-style: normal;
+    width: fit-content;
+   
+    font-size: 30px;
+    color: white;
+
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+      
+}
+
+
+
+#menu{
+    display: none;
+    
+}
+.logo label{
+    display: none;
+}
+.items{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    
+}
+.item{
+    width: 100px;
+    padding: 10px 18px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5mm;
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.item:hover{
+  
+    color: #65c0ba;;
+}
+
+    .menu{
+        flex-direction: column;
+    }
+    .menu .logo{
+width: 100%;
+    }
+    .menu .logo label {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+    .menu .logo label::before{
+        position: absolute;
+        content: "menu";
+        font-family: "Material Icons";
+        top: 0;
+        left: 0;
+        font-size: 30px;
+        color: white;
+        transition: max-height 0.8s ease;
+    }
+    .menu .items{
+        width: 100%;
+        flex-direction: column;
+           max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+    }
+    .menu .item{
+        width:  100%;
+        padding: 08px;
+        border-radius: 0;
+        margin: 0%;
+
+        border-top: 0.5mm solid rgb(52, 53, 71);
+
+    }
+    #menu:checked ~.items {
+        max-height: 500px;
+    }
+    #menu:checked ~ .logo label::before{
+        content: "close";
+    }
+
+
+ .mainhead {
+      font-family: 'Abril Fatface', cursive;
+      font-weight: 700;
       font-size: 50px;
       width: fit-content;
       text-align: center;
@@ -1250,7 +2285,7 @@ width: 100%;
 
     .headingcontainer {
      width: 100%;
-        max-width: 800px;
+     
       display: flex; 
       justify-content: center;
       align-items: center;
@@ -1270,7 +2305,7 @@ width: 100%;
       text-align: center;
       position: relative;
       /* right: 20px; */
-      max-width: 100%;
+      /* width: 100%; */
         
     }
 
@@ -1361,20 +2396,21 @@ font-family: 'Courier New', Courier, monospace;
 }
 .image{
   
- max-width: 100%;
+ width: 500px;
     height: auto;
     
-    margin-left: 120px;
+    margin-left: 0px;
 }
 
 .contentss{
 display: flex;
-flex-direction: column;
+flex-direction: row;
 justify-content: center;
-/* width: fit-content; */
+flex-wrap: wrap;
+align-items: center;
 margin-bottom: 80px;
-max-width: fit-content;
- max-width: 100%;
+
+ width: 100%;
     height: auto;
 
 
@@ -1390,14 +2426,16 @@ max-width: fit-content;
 
 .webvideo{
     display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
+    flex-wrap: wrap;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
    margin-top: 20px;
-    /* width: 100%; */
-    /* max-width: 800px; */
+    width: 400px;
+  
     padding: 0%;
 margin-bottom: 20px;
-padding-left: 130px;
+padding-left: 0px;
 text-align: center;
 
 
@@ -1413,14 +2451,14 @@ color: #000;
 font-family: "Abril Fatface", times, serif;
 font-weight: 500;
 line-height: 1.2;
-
+width: 300px;
 
 }
 .webvideo p {
     font-size: 16px;
     font-weight: 200;
     font-family: "Mukta Mahee", arial, sans-serif;
-  
+  width: 400px;
 }
 #rightarrow{
     font-size: 45px;
@@ -1441,8 +2479,8 @@ line-height: 1.2;
     flex-wrap: wrap;
     text-align: center;
     width: 100%;
-    max-width: 800px;
-    margin-left: 140px;
+   
+    margin-left: 0px;
  
 }
 .playbtn p{
@@ -1465,7 +2503,7 @@ line-height: 1.2;
     background: #fafafa;
     
  width: 100%;
-    max-width: 800px;
+   
     margin: auto;
 }
 .thridpagecontent{
@@ -1493,7 +2531,7 @@ animation: fadeIn 2s ease forwards;
     line-height: 1.8;
     justify-content: center;
    width: 100%;
-    max-width: 800px;
+   
     font-family: "Mukta Mahee", arial, sans-serif;
     animation: fadeIn 2s ease forwards;
 }
@@ -1552,14 +2590,14 @@ font-size: 18px;
     height: max-content;
   
    width: 100%;
-    max-width: 800px;
+   
     margin: auto;
 }
 .fourthpagecontent{
     margin: 0 auto;
   
     width: 100%;
-    max-width: 800px;
+   
 }
 .writtencontent{
     display: flex;
@@ -1567,7 +2605,7 @@ font-size: 18px;
   margin-left: 0;
     animation: fadeIn 2s ease forwards;
      width: 100%;
-    max-width: 800px;
+   
 }
    
 
@@ -1578,7 +2616,7 @@ color: #000;
 font-family: "Abril Fatface", times, serif;
 line-height: 1;
 width: 100%;
-    max-width: 800px;
+   
 margin-left: 0;
 
 
@@ -1594,7 +2632,7 @@ color: #6c757d;
 line-height: 1.8;
 animation: fadeIn 2s ease forwards;
 width: 100%;
-    max-width: 800px;
+    
     margin: 0 auto;
 }
 
@@ -1610,7 +2648,7 @@ width: 100%;
 .slider {
     position: relative;
  width: 100%;
-    max-width: 800px;
+   
     height: auto;
   margin: 0 auto;
 
@@ -1691,24 +2729,25 @@ width: 100%;
     margin-right: 0px;
     /* width: 800px; */
      width: 100%;
-    max-width: 800px;
+ 
     
 }
 
 .fifthimagecontainer{
 display: flex;
 flex-wrap: wrap;
+align-items: flex-start;
 box-sizing: border-box;
 
 /* left: 100px; */
 position: relative;
-/* max-width: 800px; */
+
     width: 100%;
-    max-width: 800px;
+  
 }
 .fifthwritencon{
  width: 100%;
-    max-width: 800px;
+   
 text-align: center;
 margin: 0;
 padding: 0%;
@@ -1725,7 +2764,7 @@ position: relative;
 /* left: 30px; */
 /* margin-left: 10px; */
  width: 100%;
-    max-width: 800px;
+   
 }
 .fifthpagewritencontent p{
 font-size: 16px;
@@ -1734,7 +2773,7 @@ font-size: 16px;
     /* line-height: 1.8; */
     /* justify-content: center; */
     font-family: "Mukta Mahee", arial, sans-serif;
-    max-width: 500px;
+   
     margin-left: 150px;
     /* left: 100px; */
 }
@@ -1801,7 +2840,7 @@ font-size: 18px;
 .sixthpagecontent{
     padding-top: 80px;
         background: #fafafa;
-        max-width: 800px;
+        
     width: 100%;
 }
 .sixthpagecontent h1{
@@ -1819,7 +2858,7 @@ margin-bottom: 20px;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 800px;
+ 
     margin: 0 auto;
 
    
@@ -1854,7 +2893,7 @@ margin-bottom: 0 auto;
 }
 .lastpagecontent{
  width: 100%;
-   max-width: 800px;
+  
 padding-top: 100px;
 text-align: center;
 
@@ -1867,7 +2906,7 @@ text-align: center;
         font-weight: 500;
     line-height: 1.2;
    width: 100%;
-     max-width: 800px;
+    
   margin: 0;
 
     
@@ -1881,7 +2920,7 @@ font-size: 1.25rem;
     color: #6c757d;
     font-family: "Mukta Mahee", arial, sans-serif;
    width: 100%;
-   max-width: 800px;
+ 
    
   
  margin: 0 auto;
@@ -1897,7 +2936,7 @@ justify-content: center;
 padding-bottom: 150px;
 
    width: 100%;
-    max-width: 800px;
+    
 }
 .imagereveiw{
 margin-inline: 15px;
@@ -1991,7 +3030,7 @@ margin-left: 60px;
     background: #1a1a1a;
     color: #fff;
      width: 100%;
-    max-width: 800px;
+   
     margin: auto;
     
 }
@@ -2001,7 +3040,7 @@ margin-left: 60px;
 /* justify-content: right; */
 /* margin: 100px; */
 justify-content: center;
-max-width: 800px;
+
     width: 100%;
 }
 .footcontent h3{
@@ -2017,7 +3056,7 @@ max-width: 800px;
 .footing{
 margin: 10px;
 width: 100%;
-max-width: 800px;
+
 }
 .footing ul{
      padding-left: 0;
@@ -2088,7 +3127,7 @@ max-width: 800px;
     .footingtwo{
         background: #1a1a1a;
          width: 100%;
-    max-width: 800px;
+    
     }
     .footingtwo p {
         font-family: "Mukta Mahee", arial, sans-serif;
@@ -2100,7 +3139,7 @@ max-width: 800px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   
    width: 100%;
-    max-width: 800px;
+   
     
      padding-top: 50px;
      margin: 0;
@@ -2149,16 +3188,16 @@ transform: translateY(0);
 
 }
 
-@media (max-width: 620px) {
-    *{
-/* width: fit-content; */
-/* border: 1px solid black; */
-}
+
+
+@media (max-width: 768px) {
+
     body{
    
      width: 100%;
-    max-width: 620px;
-    overflow-x: auto;
+    
+   overflow-x: hidden;
+  overflow-y: auto;
     margin: 0;
         
     
@@ -2189,9 +3228,9 @@ font-family: 'Times New Roman', Times, serif;
  background-image: url(hero_1.jpg.webp);
     
  background-position: left;
- /* max-width: 800px;    */
+    
  width: 100%;
-   max-width: 612px;
+  
     margin: auto;
     height: fit-content;
     border-style: solid;
@@ -2230,7 +3269,7 @@ background-size: cover;
 }
 .menu{
     width: 100%;
-   max-width: 612px;
+  
     margin: auto;
     height:fit-content;
     box-sizing: border-box;
@@ -2281,7 +3320,7 @@ background-size: cover;
 }
 .item{
     width: 100px;
-    padding: 10px 18px;
+    padding: 0px;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -2290,9 +3329,9 @@ background-size: cover;
     justify-content: center;
     border-radius: 5mm;
     font-family: "Abril Fatface", serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-size: 20px;
+    font-size: 12px;
     color: black;
     text-decoration: none;
     
@@ -2332,10 +3371,11 @@ width: 100%;
            max-height: 0;
     overflow: hidden;
     transition: max-height 0.8s ease;
+    background-color: #ced4da;
     }
     .menu .item{
         width:  100%;
-        padding: 10px;
+        padding: 08px;
         border-radius: 0;
         margin: 0%;
 
@@ -2369,7 +3409,7 @@ width: 100%;
 
     .headingcontainer {
      width: 100%;
-       max-width: 612px;
+       
       display: flex; 
       justify-content: center;
       align-items: center;
@@ -2388,7 +3428,7 @@ width: 100%;
       font-family: sans-serif;
       text-align: center;
       position: relative;
-   max-width: 612px;
+  
    width: 100%;
         
     }
@@ -2475,13 +3515,13 @@ font-family: 'Courier New', Courier, monospace;
 }
 
 .secondpage{
-  max-width: 612px;
+  
   width: 100%;
     height: auto;
 }
 .image{
   
-max-width: 612px;
+
 width: 100%;
     height: auto;
     margin: 0 auto;
@@ -2493,15 +3533,16 @@ flex-direction: column;
 justify-content: center;
 /* width: fit-content; */
 margin-bottom: 80px;
-max-width: 612px;
+
 width: 100%;
     height: auto;
 
 
 }
 .image img{
- max-width: 100%;
+ width: 100%;
     height: auto;
+    margin: 0 auto;
 
 
 
@@ -2514,7 +3555,7 @@ width: 100%;
     justify-content: center;
    margin-top: 20px;
     width: 100%;
-    max-width: 800px;
+    
     padding: 0%;
 margin-bottom: 20px;
 /* margin-left: 80px; */
@@ -2558,9 +3599,11 @@ line-height: 1.2;
 .playbtn{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
+    align-items: center;
     width: 100%;
-   max-width: 612px;
+   
     margin: 0 auto;
  
 }
@@ -2584,7 +3627,7 @@ line-height: 1.2;
     background: #fafafa;
     
  width: 100%;
- max-width: 612px;
+ 
     margin: auto;
 }
 .thridpagecontent{
@@ -2612,7 +3655,7 @@ animation: fadeIn 2s ease forwards;
     line-height: 1.8;
     justify-content: center;
    width: 100%;
-   max-width: 612px;
+   
     font-family: "Mukta Mahee", arial, sans-serif;
     animation: fadeIn 2s ease forwards;
 }
@@ -2671,14 +3714,14 @@ font-size: 18px;
     height: max-content;
   
    width: 100%;
-  max-width: 612px;
+
     margin: auto;
 }
 .fourthpagecontent{
     margin: 0 auto;
   
     width: 100%;
- max-width: 612px;
+ 
 }
 .writtencontent{
     display: flex;
@@ -2695,7 +3738,7 @@ color: #000;
 font-family: "Abril Fatface", times, serif;
 line-height: 1;
 width: 100%;
-   max-width: 612px;
+   
 margin-left: 0;
 
 
@@ -2711,7 +3754,7 @@ color: #6c757d;
 line-height: 1.8;
 animation: fadeIn 2s ease forwards;
 width: 100%;
-  max-width: 612px;
+  
 }
 
 
@@ -2726,7 +3769,7 @@ width: 100%;
 .slider {
     position: relative;
  width: 100%;
-    max-width: 612px;
+    
     height: auto;
   margin: 0 auto;
 
@@ -2807,7 +3850,7 @@ width: 100%;
     margin-right: 0px;
     /* width: 800px; */
      width: 100%;
-   max-width: 612px;
+   
     
 }
 
@@ -2820,11 +3863,11 @@ box-sizing: border-box;
 position: relative;
 
     width: 100%;
- max-width: 612px;
+ 
 }
 .fifthwritencon{
  width: 100%;
-  max-width: 612px;
+ 
 text-align: center;
 margin: 0;
 padding: 0%;
@@ -2840,18 +3883,19 @@ margin-top: 20px;
 position: relative;
 
  width: 100%;
- max-width: 612px;
+ 
 }
 .fifthpagewritencontent p{
 font-size: 16px;
    font-weight: 400;
         color: rgba(255, 255, 255, 0.7);
     /* line-height: 1.8; */
-    /* justify-content: center; */
+    justify-content: center;
     font-family: "Mukta Mahee", arial, sans-serif;
     max-width: 500px;
-    position: relative;
-    /* left: 100px; */
+    margin: 0 auto;
+  text-align: center;
+  width: 100%;
 }
 .fifthimage{
     background-color: #ffff;
@@ -2916,7 +3960,7 @@ font-size: 18px;
 .sixthpagecontent{
     padding-top: 80px;
         background: #fafafa;
-    max-width: 612px;
+   
     width: 100%;
 }
 .sixthpagecontent h1{
@@ -2934,7 +3978,7 @@ margin-bottom: 20px;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-   max-width: 612px;
+ 
     margin: 0 auto;
 
    
@@ -2969,7 +4013,7 @@ margin-bottom: 0 auto;
 }
 .lastpagecontent{
  width: 100%;
-  max-width: 612px;
+ 
 padding-top: 100px;
 
 }
@@ -2981,7 +4025,7 @@ padding-top: 100px;
         font-weight: 500;
     line-height: 1.2;
    width: 100%;
-max-width: 612px;
+
   margin: 0;
     position: relative;
     
@@ -2995,7 +4039,7 @@ font-size: 1.25rem;
     color: #6c757d;
     font-family: "Mukta Mahee", arial, sans-serif;
    width: 100%;
-max-width: 612px;
+
     margin: 0;
     position: relative;
     /* left: 130px; */
@@ -3011,7 +4055,7 @@ justify-content: center;
 padding-bottom: 150px;
 
    width: 100%;
-   max-width: 612px;
+   
 }
 .imagereveiw{
 margin-inline: 15px;
@@ -3105,7 +4149,7 @@ margin-left: 60px;
     background: #1a1a1a;
     color: #fff;
      width: 100%;
-   max-width: 612px;
+  
     margin: auto;
     
 }
@@ -3115,7 +4159,7 @@ margin-left: 60px;
 /* justify-content: right; */
 /* margin: 100px; */
 justify-content: center;
-max-width: 612px;
+
     width: 100%;
 }
 .footcontent h3{
@@ -3131,7 +4175,7 @@ max-width: 612px;
 .footing{
 margin: 10px;
 width: 100%;
-max-width: 612px;
+
 }
 .footing ul{
      padding-left: 0;
@@ -3202,7 +4246,7 @@ max-width: 612px;
     .footingtwo{
         background: #1a1a1a;
          width: 100%;
-    max-width: 612px;
+   
     }
     .footingtwo p {
         font-family: "Mukta Mahee", arial, sans-serif;
@@ -3214,7 +4258,1132 @@ max-width: 612px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
   
    width: 100%;
-  max-width: 612px;
+  
+    
+     padding-top: 50px;
+     margin: 0;
+   
+    }
+    .iconsss{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px;
+        margin: 0;
+        text-align: center;
+         opacity: 0; 
+       
+       
+    }
+     @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+.sticonss{
+    text-decoration: none;
+    text-rendering: auto;
+    margin-inline: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font: 18px;
+  
+}
+
+.autoshow {
+    animation: div-appear 1s both;
+    animation-timing-function: ease;
+    animation-timeline: view(30% auto);
+    animation-range: entry 50% cover 120vh;
+}
+@keyframes div-appear {
+    from{
+opacity: 0;
+transform: translateY(100px);
+    }
+    to {
+opacity: 1;
+transform: translateY(0);
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 420px) {
+ 
+    body{
+   
+     width: 100%;
+    
+   overflow-x: hidden;
+  overflow-y: auto;
+    margin: 0;
+        
+    
+    /* margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%; */
+   
+    
+}
+
+.home_link{  
+    color: white ;
+    font-size: 30px;
+    list-style: none;
+font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-size-adjust: 100%;
+    font-weight:bold;
+    line-height: 30px;
+    transition-duration: 0.3s;
+   cursor: pointer; 
+  
+}
+.backiimage{
+ background-image: url(hero_1.jpg.webp);
+    
+ background-position: left;
+    
+ width: 100%;
+  
+    margin: auto;
+    height: fit-content;
+    border-style: solid;
+    border-image-source:linear-gradient(to bottom,  rgba(50, 60, 65, 0.356), transparent);
+    border-image-slice: fill 1;
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+
+
+}
+.backiimage::before{
+    background: rgba(0, 0, 0, 0.2);
+    content: "";
+    position: absolute;
+    height: 100vh;
+    min-height: 700px;
+}
+.hepta_homebtn{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    padding-top: 60px;   
+   
+}
+
+.center{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  
+}
+.menu{
+    width: 100%;
+  
+    margin: auto;
+    height:fit-content;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-left: 60px; */
+    /* padding-right: 60px; */
+    position: absolute;
+      
+ 
+}
+
+.logo{
+      font-family: "Abril Fatface", serif;
+    font-weight: 1000 ;
+    font-style: normal;
+    width: fit-content;
+   
+    font-size: 30px;
+    color: white;
+
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+      
+}
+
+
+
+#menu{
+    display: none;
+    
+}
+.logo label{
+    display: none;
+}
+.items{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    
+}
+.item{
+    width: 100px;
+    padding: 10px 18px;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5mm;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+    
+    
+}
+.item:hover{
+  
+    color: #65c0ba;;
+}
+
+    .menu{
+        flex-direction: column;
+    }
+    .menu .logo{
+width: 100%;
+    }
+    .menu .logo label {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        width: 30px;
+        height: 30px;
+    }
+    .menu .logo label::before{
+        position: absolute;
+        content: "menu";
+        font-family: "Material Icons";
+        top: 0;
+        left: 0;
+        font-size: 30px;
+        color: white;
+        transition: max-height 0.8s ease;
+    }
+    .menu .items{
+        width: 100%;
+        flex-direction: column;
+           max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+    }
+    .menu .item{
+        width:  100%;
+        padding: 10px;
+        border-radius: 0;
+        margin: 0%;
+
+        border-top: 0.5mm solid rgb(52, 53, 71);
+
+    }
+    #menu:checked ~.items {
+        max-height: 500px;
+    }
+    #menu:checked ~ .logo label::before{
+        content: "close";
+    }
+
+
+ .mainhead {
+      font-family: 'Abril Fatface', cursive;
+      font-weight: 700;
+      font-size: 50px;
+      width: fit-content;
+      text-align: center;
+      color: rgb(255, 255, 255);
+      /* margin-top: 100px; */
+      /* padding-left: 10px; */
+      /* right: 20px; */
+      position: relative;
+      
+       
+      
+    }
+   
+
+    .headingcontainer {
+     width: 100%;
+       
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    
+      flex-direction: column;
+      box-sizing: border-box;
+      position: relative;
+      margin-top: 145px ;
+    }
+
+      .tempdownload {
+      color: rgb(255, 255, 255); 
+      font-size: 20px;
+      font-weight: 200;
+      font-family: sans-serif;
+      text-align: center;
+      position: relative;
+  
+   width: 100%;
+        
+    }
+
+ 
+       .linkinternal {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.5);
+      transition: 0.3s all ease;
+      text-decoration: none;
+      background-color: transparent;
+      cursor: pointer;
+      text-align: center !important;
+      font-size: 20px;
+      font-family: sans-serif;   
+    }
+
+    .linkinternal:hover {
+      color: rgba(255, 255, 255, 10);
+      border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+     
+    }
+
+.mia{
+    color: #f8f9fa; 
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    border: 2px solid #f8f9fa;
+    border-radius: 4px;
+    margin: auto;
+ font-weight: 300;
+ position: relative;
+ letter-spacing: .2em;
+ /* right: 10px; */
+ top: 40px;
+  
+ 
+}
+
+.mia:hover{
+    background: white;
+     color: black;
+}
+#miabahi{
+    font-size: 25px;
+    color: #e3e3e3;
+    margin: 0%;
+    padding: 0%;
+  
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.scrollbtn{
+    justify-content: end;
+    text-align: center;
+    margin-top:18%;
+    margin-bottom: 0%;
+ 
+}
+
+
+.scollhead{
+font-size: 12px;
+color: #ffff;
+text-align: center;
+margin-top:0%;
+margin-bottom: 0%;
+padding: 0%;
+font-family: 'Courier New', Courier, monospace;
+
+}
+#playbtnn{
+    transform: rotateZ(-30deg);
+    color: #fff;
+}
+
+.secondpage{
+  
+  width: 100%;
+    height: auto;
+}
+.image{
+  
+
+width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contentss{
+display: flex;
+flex-direction: column;
+justify-content: center;
+/* width: fit-content; */
+margin-bottom: 80px;
+
+width: 100%;
+    height: auto;
+
+
+}
+.image img{
+ width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+
+
+}
+
+
+.webvideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-top: 20px;
+    width: 100%;
+    
+    padding: 0%;
+margin-bottom: 20px;
+/* margin-left: 80px; */
+text-align: center;
+
+}
+
+.animate__animated.animate__slideInUp{
+    animation-duration: 3s;
+ animation-timing-function:linear;
+}
+
+.webvideo h1 {
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+
+
+}
+.webvideo p {
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    width: 100%;
+  
+}
+#rightarrow{
+    font-size: 45px;
+    border: 2px solid #e6e6e6;
+     width: fit-content;
+   border-radius: 40px;
+   color:#65c0ba; ;
+  
+}
+#rightarrow:hover{
+ border: 2px solid #000;
+ color: #000;
+ cursor: pointer;
+ 
+}
+.playbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+   
+    margin: 0 auto;
+ 
+}
+.playbtn p{
+    font-size: 20px;
+    color: #65c0ba;
+        font-family: "Mukta Mahee", arial, sans-serif;
+        font-weight: 500;
+        margin: 0%;
+        padding-top: 10px;
+        padding-left: 10px;
+        width: fit-content;
+        height: fit-content;
+       
+}
+
+
+
+
+.thridpage{
+    background: #fafafa;
+    
+ width: 100%;
+ 
+    margin: auto;
+}
+.thridpagecontent{
+   animation: fadeIn 2s ease forwards;
+}
+.context{
+ text-align: center;
+    justify-content: center;
+
+justify-items: center;
+animation: fadeIn 2s ease forwards;
+ padding-top: 100px;
+}
+.thridpagecontent h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+animation: fadeIn 2s ease forwards;
+}
+.thridpagecontent p{
+   font-size: 20px;
+   font-weight: 300;
+    color: #6c757d;
+    line-height: 1.8;
+    justify-content: center;
+   width: 100%;
+   
+    font-family: "Mukta Mahee", arial, sans-serif;
+    animation: fadeIn 2s ease forwards;
+}
+.columns{
+   
+    /* justify-content: center; */
+text-align: center;
+width: 300px;
+margin-top: 10px;
+margin-left: 10px;
+margin-right: 10px;
+animation: fadeIn 2s ease forwards;
+
+}
+
+
+
+.svgs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ 
+box-sizing: border-box;
+  margin: 0 auto;
+   padding-bottom: 120px;
+   animation: fadeIn 2s ease forwards;
+}
+.svgs img{
+width: 70px;
+
+}
+.svgs h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+animation: fadeIn 2s ease forwards;
+text-align: center;
+width: 300px;
+}
+.svgs p {
+font-size: 18px;
+   font-weight: 300;
+    color: #6c757d;
+    /* line-height: 1.8; */
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    animation: fadeIn 2s ease forwards;
+    
+}
+.fourthpage{
+    background-color: #65c0ba;
+  
+    animation: fadeIn 2s ease forwards;
+    height: max-content;
+  
+   width: 100%;
+
+    margin: auto;
+}
+.fourthpagecontent{
+    margin: 0 auto;
+  
+    width: 100%;
+ 
+}
+.writtencontent{
+    display: flex;
+    flex-direction: column;
+  margin-left: 0;
+    animation: fadeIn 2s ease forwards;
+}
+   
+
+
+.writtencontent h1{
+font-size: 40px;
+color: #000;
+font-family: "Abril Fatface", times, serif;
+line-height: 1;
+width: 100%;
+   
+margin-left: 0;
+
+
+
+
+
+}
+.writtencontent p{
+font-size: 16   px;
+font-weight: 250;
+font-family: "Mukta Mahee", arial, sans-serif;
+color: #6c757d;
+line-height: 1.8;
+animation: fadeIn 2s ease forwards;
+width: 100%;
+  
+}
+
+
+
+
+
+
+
+/*slider*/
+
+
+.slider {
+    position: relative;
+ width: 100%;
+    
+    height: auto;
+  margin: 0 auto;
+
+    overflow: hidden;
+    border-radius: 12px;
+    animation: fadeIn 2s ease forwards;
+    height: 50%;
+}
+
+/* All images same size */
+.slide {
+    width: 100%;
+    height: 770px;
+    object-fit: cover; /* equal size without stretch */
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out; /* smooth fade */
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+/* Arrows */
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 8px 14px;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 0.3s;
+    user-select: none;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+/* Arrows OUTSIDE */
+.prev {
+    left: -55px;
+}
+
+.next {
+    right: -55px;
+}
+
+/* Dots */
+.dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background: #aaa;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: #333;
+}
+.fifthpagewritencontent{
+     display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-left: 0px;
+    margin-right: 0px;
+    /* width: 800px; */
+     width: 100%;
+   
+    
+}
+
+.fifthimagecontainer{
+display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+
+/* left: 100px; */
+position: relative;
+
+    width: 100%;
+ 
+}
+.fifthwritencon{
+ width: 100%;
+ 
+text-align: center;
+margin: 0;
+padding: 0%;
+
+}
+.fifthpagewritencontent h1{
+color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 40px;
+margin-top: 20px;
+position: relative;
+
+ width: 100%;
+ 
+}
+.fifthpagewritencontent p{
+font-size: 16px;
+   font-weight: 400;
+        color: rgba(255, 255, 255, 0.7);
+    /* line-height: 1.8; */
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.fifthimage{
+    background-color: #ffff;
+    width: 320px;
+    position: relative;
+    margin: 0 auto;
+    
+    /* align-content: center; */
+    /* margin-top: 0 auto; */
+    /* margin-bottom: 0 auto; */
+    /* margin-inline-start: 20px; */
+    
+    
+}
+.fifthimage img {
+width: 320px;
+height: 250px;
+}
+.imagewritten-div{
+    max-width: 280px;
+    padding-left: 40px;
+    cursor: pointer;
+    
+        
+}
+.date {
+font-family: "Mukta Mahee", arial, sans-serif;
+      color: #ced4da;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.imagewritten-div h1{
+  color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 26px;
+margin : 0;
+cursor: pointer;
+width: 220px;
+
+}
+.imagewritten-div h1:active{
+transform: scale(0.95);
+}
+
+.imagewritten-div h1:hover{
+     color: #65c0ba;
+}
+.para {
+font-size: 18px;
+   font-weight: 300;
+    color: #6c757d;
+    line-height: 1.8;
+    justify-content: center;
+    font-family: "Mukta Mahee", arial, sans-serif;
+
+}
+.sixthpagecontent{
+    padding-top: 80px;
+        background: #fafafa;
+   
+    width: 100%;
+}
+.sixthpagecontent h1{
+      color: #000;
+font-family: "Abril Fatface", times, serif;
+font-weight: 500;
+line-height: 1.2;
+font-size: 40px;
+text-align: center;
+margin-left: 50px;
+margin-bottom: 20px;
+}
+.reviewcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+ 
+    margin: 0 auto;
+
+   
+}
+.reviewcontent{
+    width: 220px;
+     padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 160px;
+}
+.reviewcontent img{
+width: 70px;
+border-radius: 50%;
+margin-bottom: 0 auto;
+}
+.comment{
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+    font-weight: 200;
+}
+.name{
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    font-style: italic;
+}
+.lastpagecontent{
+ width: 100%;
+ 
+padding-top: 100px;
+
+}
+.lastpagecontent h1{
+    text-align: center !important;
+    color: #000;
+    font-family: "Abril Fatface", times, serif;
+    font-size: 2rem;    
+        font-weight: 500;
+    line-height: 1.2;
+   width: 100%;
+
+  margin: 0;
+    position: relative;
+    
+
+}
+.lastpagecontent p{
+font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center !important;
+    line-height: 1.8;
+    color: #6c757d;
+    font-family: "Mukta Mahee", arial, sans-serif;
+   width: 100%;
+
+    margin: 0;
+    position: relative;
+    /* left: 130px; */
+   
+}
+.imagereveiwcontainer{
+
+display: flex;
+/* flex-direction: row; */
+flex-wrap: wrap;
+box-sizing: border-box;
+justify-content: center;
+padding-bottom: 150px;
+
+   width: 100%;
+   
+}
+.imagereveiw{
+margin-inline: 15px;
+
+}
+.imagereveiw img{
+    width: 300px;
+     cursor: pointer;
+     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  
+}
+.imagereveiw h1{
+        color: #000;
+    
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+        font-family: "Abril Fatface", times, serif;
+        font-weight: 500;
+    line-height: 1.2;
+    margin: 0 auto;
+    padding-top: 10px ;
+   
+}
+.imagereveiw h1:hover{
+    color: #65c0ba;
+    
+}
+
+
+
+/*star */
+.rating {
+    font-size: 18px;
+    color: #65c0ba;
+    gap: 3px;
+    margin-top: 5px;
+    flex-direction: row;
+    display: inline-block; 
+}
+
+
+
+.star {
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    
+}
+
+/* Full star */
+.star.full {
+    color: #65c0ba;
+    
+}
+
+/* Empty star */
+.star.empty {
+    color: #65c0ba;
+    
+}
+
+/* Half star */
+.star.half {
+    color: #65c0ba;
+    
+}
+
+.star.half .half-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;       /* half width */
+    overflow: hidden; 
+    color: #65c0ba;
+
+}
+.reveiwcount{   
+    color: #ccc;
+    font-style: italic;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+   text-align: end;
+margin-left: 60px;
+ display: inline-block;  
+ margin-top: 0;
+ margin-bottom: 0;
+}
+.foot{
+    background: #1a1a1a;
+    color: #fff;
+     width: 100%;
+  
+    margin: auto;
+    
+}
+.footcontent{
+     display: flex;
+    flex-wrap: wrap;
+/* justify-content: right; */
+/* margin: 100px; */
+justify-content: center;
+
+    width: 100%;
+}
+.footcontent h3{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: "Abril Fatface", times, serif;
+        font-weight: 500;
+    line-height: 1.2;
+    
+
+}
+.footing{
+margin: 10px;
+width: 100%;
+
+}
+.footing ul{
+     padding-left: 0;
+     margin: 0;
+     
+}
+.footing li{
+        list-style: none;
+        padding-block-start: 05px;
+        
+       
+        
+        
+}
+.footing ul li a{
+    color: rgba(255, 255, 255, 0.7);
+    background-color: transparent;
+        cursor: pointer;
+            font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+.footing ul li a:hover {
+        color: #fff;
+}
+.footing ul li h6{
+    font-style: italic;
+    color: #fff;
+    font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+
+}
+.footing ul li p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+}
+.footing ul li input{
+    background: none;
+    font-size: 18px;
+    color: #fff;
+   width: 85%;
+    /* padding: 0.375rem 0.75rem; */
+    font-size: 1rem;
+    line-height: 1.5;
+    height: 25px;
+    border: 0;
+    font-style: italic;
+    border-bottom: 1px solid #fff;
+  outline: none;
+    
+}
+    .fa-paper-plane {
+        font-size: 18px;
+        color: #fff;
+        position: absolute;;
+    }
+    .footingtwo{
+        background: #1a1a1a;
+         width: 100%;
+   
+    }
+    .footingtwo p {
+        font-family: "Mukta Mahee", arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #6c757d;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  
+   width: 100%;
+  
     
      padding-top: 50px;
      margin: 0;

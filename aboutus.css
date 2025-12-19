@@ -2443,8 +2443,8 @@ font-size: 40px;
     font-family: "Mukta Mahee", arial, sans-serif;
     color: #000;
     border-radius: 5px;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 0px;
+padding-right: 0px;
 text-align: center;
 }
  .teamsvgs{
@@ -2975,8 +2975,8 @@ font-size: 40px;
     font-family: "Mukta Mahee", arial, sans-serif;
     color: #000;
     border-radius: 5px;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 0px;
+padding-right: 0px;
 text-align: center;
 }
  .teamsvgs{

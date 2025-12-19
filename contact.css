@@ -2082,7 +2082,9 @@ transform: translateY(0);
 }
 
 @media (max-width: 420px) {
-   
+   *{
+    border: 1px solid black;
+   }
     body{
     margin: 0 auto;
 padding: 0;
@@ -2404,6 +2406,7 @@ font-family: 'Abril Fatface', cursive;
 font-weight: 500;
 margin: 0;
 padding-bottom: 25px;
+font-size: 25px;
 }
 .writtenheading p{
     font-family: 'Abril Fatface', cursive;
@@ -2421,7 +2424,7 @@ color: #46ACA5;
 font-family: "Abril Fatface", times, serif;
 font-weight: 500;
 line-height: 1.2;
-font-size: 70px;
+font-size: 50px;
 text-align: center;
 }
 .reviewcontainer{
